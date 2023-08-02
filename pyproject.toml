@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "integral_python_sdk_shreypjain"
+version = "0.1.0"
+authors = [
+  { name="Shrey Jain", email="shrey@integralapi.co" },
+]
+description = "Integral's Generated API Package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://integralapi.co"
+"Bug Tracker" = "https://github.com/Integralapp/integral-python-sdk"
